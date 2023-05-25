@@ -26,7 +26,7 @@ class CalculatorTest {
     void testDivision(double a, double b, double expected) {
         assertEquals(expected, Calculator.divide(a, b));
     }
-    
+
     @Test
     void testDivision6() {
         Exception exception = assertThrows(
